@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.icon-right{
+    position: absolute;
+    right: 0.2em;
+    top: 5.3em;
+}
+.season-Display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.season-Display h2{
+color: white;
+font-size: 70px !important;
+font-family: 'Roboto', sans-serif !important;
+
+}
+.season-Display.winter i{
+    color: blue;
+}
+.season-Display i:hover{
+    transition: 3s;
+    transform: rotate(360deg);
+    overflow: hidden;
+}
+
+.season-Display.summer i{
+    color: red;
+}
